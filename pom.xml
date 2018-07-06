@@ -14,8 +14,17 @@
 					<release>9</release>
 				</configuration>
 			</plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <mainClass>com.scraper.TideScraper</mainClass>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
+	
 	<dependencies>
 		<dependency>
 			<groupId>net.sourceforge.htmlunit</groupId>

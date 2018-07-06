@@ -14,9 +14,12 @@ Load the tide forecast page for each location and extract information on low tid
 
 To run this clone this repo.
 Go to the root directory containing the pom.xml
-Run mvn clean install
-Run mvn exec:java 
+```
+mvn clean install
+mvn exec:java 
+```
 
+```
 Half Moon Bay, California
 ===
 date=Friday 6 July, time=10:58 AM PDT, height=0.37 m
@@ -148,3 +151,4 @@ date=Wednesday 1 August, time=5:02 PM EDT, height=0.17 m
 date=Thursday 2 August, time=5:49 PM EDT, height=0.21 m
 date=Friday 3 August, time=6:49 PM EDT, height=0.25 m
 date=Saturday 4 August, time=7:07 AM EDT, height=0.10 m
+```

@@ -1,5 +1,6 @@
 # Web Scraping
 
+## Task
 Write a simple web scraper to help us visit the tide pools. Use any language and/or tools that you like.
 
 Go to https://www.tide-forecast.com/ to get tide forecasts for these locations:
@@ -11,14 +12,16 @@ Wrightsville Beach, North Carolina
 
 Load the tide forecast page for each location and extract information on low tides that occur after sunrise and before sunset. Return the time and height for each daylight low tide,.
 
-To run this clone this repo.
+## Instructions
+To run this clone this repo
+Install maven
 Go to the root directory containing the pom.xml
 ```
 mvn clean install
 mvn exec:java 
 ```
 
-# Output
+## Output
 ```
 Half Moon Bay, California
 ===

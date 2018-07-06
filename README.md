@@ -1,5 +1,4 @@
-# web-scraper
-java web scraper
+# Web Scraping
 
 Write a simple web scraper to help us visit the tide pools. Use any language and/or tools that you like.
 
@@ -19,6 +18,7 @@ mvn clean install
 mvn exec:java 
 ```
 
+# Output
 ```
 Half Moon Bay, California
 ===
